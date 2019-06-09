@@ -54,18 +54,17 @@ p {
 
 .sidebar {
     background-color: rgba(247, 218, 140, 0.904);
-	font: Comic;
 	padding: 8px 20px 8px 0;
     position: fixed;
     left: 20px;
 	top: 190px;
-    width: 200px;
+    width: 220px;
     
 }
 
     .sidebar a {
         color: rgb(54, 8, 0);
-        font-family: "Helvitica";
+        font-family: "Arial";
         text-decoration: underline;
     }
 
@@ -74,10 +73,8 @@ p {
     }
 
     .sidebar ul li {
-        font-size: 18px;
-        list-style: square;
-        font-family: "Helvitica";
-    
+        font-size: 17px;
+        list-style: square;        
     }
 
 .jobs-article {
@@ -88,4 +85,17 @@ p {
     width: 600px;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 35px;
+    
+}
+
+#footer-text {
+    font-size: 18px;
+    font-family: "Impact";
+    color: rgb(54, 8, 0);
 }
