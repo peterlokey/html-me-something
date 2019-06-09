@@ -1,0 +1,91 @@
+body {
+    background-image: url("images/wood-background.jpeg");
+    background-attachment: fixed;
+    background-size: 1500px;
+}
+
+h1 {
+    font-family: "Arial"; 
+    font-style: bold;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+h2{
+    font-family: "Arial"; 
+    font-size: 25px;
+    color: white;
+}
+
+h4 {
+    font-family: "Arial";
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+header {
+    background-color: rgba(61, 24, 0, .9);
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#name{
+    font-family: "Arial";
+    font-size: 35;
+    color: white;
+}
+
+.img {
+    
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%
+}
+
+p {
+    font-size: 18px;
+    color: rgb(245, 237, 217);
+}
+
+.sidebar {
+    background-color: rgba(247, 218, 140, 0.904);
+	font: Comic;
+	padding: 8px 20px 8px 0;
+    position: fixed;
+    left: 20px;
+	top: 190px;
+    width: 200px;
+    
+}
+
+    .sidebar a {
+        color: rgb(54, 8, 0);
+        font-family: "Helvitica";
+        text-decoration: underline;
+    }
+
+    .sidebar a:hover {
+        text-decoration: none;
+    }
+
+    .sidebar ul li {
+        font-size: 18px;
+        list-style: square;
+        font-family: "Helvitica";
+    
+    }
+
+.jobs-article {
+    position: absolute;
+    background-color: rgba(138, 41, 2, 0.8);
+    top: 190px;
+    left: 400px;
+    width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
